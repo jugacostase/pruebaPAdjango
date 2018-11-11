@@ -75,6 +75,16 @@ WSGI_APPLICATION = 'testpro.wsgi.application'
 
 DATABASES = {
 
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'jacostas$pruebadjAP',
+        'USER': 'jacostas',
+        'PASSWORD': 'oppenheimer',
+        'HOST': 'jacostas.mysql.pythonanywhere-services.com',
+        'PORT': ''
+
+    }
+
 }
 
 
